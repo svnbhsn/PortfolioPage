@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Page</title>
+    <link rel="shortcut icon" type="image/ico" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    <style>
+
+
+    </style>
+</head>
+
+<body id="top">
+    <header>
+        <h2><a href="#top"><img src="img/logo.png" alt=""></a></h2>
+        <nav>
+            <ul>
+                <li><a href="#top">Top</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#getting-around">Travel</a></li>
+                <li><a href="#famous-qoutes">Quotes</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#social-media">Links</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <!-- ********************************* -->
+
+
+    <div id="hero">
+        <div class="background-image"></div>
+        <h1>Single Page Project</h1>
+        <h3>Nice Wallpapers for Your Viewing Pleasure</h3>
+        <a href="https://github.com/svnbhsn" class="btn" target="_blank">Other Projecs</a>
+    </div>
+
+    <!-- ********************************* -->
+    <div id="about">
+        <h3 class="title">about me</h3>
+        <div id="two-cols">
+            <div class="about-img"><img src="img/ava.PNG" alt="Patrick"></div>
+            <div class="about-bio">
+                <p>
+                    With that out of the way, we'll now focus on our "about" section. Our first step is to style the copy. We’ll begin by adding some base styling for the section as a whole as well as our flexbox logic. This time we are having the items appear in a row center aligned using our two-cols class.
+                </p>
+            </div>
+        </div>
+        <hr>
+        <p>&nbsp;</p>
+    </div>
+    <!-- ********************************* -->
+
+    <div id="gallery" class="photo-gallery">
+        <h3 class="title">Gallery</h3>
+        <p>
+            Next, we need to populate our list with images. For the sake of convenience, we’ll be adding images via in-styling in the "list item" tag itself. Also, we want to vary the image sizes, so we will have a class of large and a class of small to use intermittently. Make sure this coding goes in between your opening and closing unordered list tags.
+        </p>
+        <hr>
+        <ul class="grid">
+            <li class="small" style="background-image: url('img/pic1.jpeg');"></li>
+            <li class="large" style="background-image: url('img/pic2.jpeg');"></li>
+            <li class="small" style="background-image: url('img/pic3.jpeg');"></li>
+            <li class="large" style="background-image: url('img/pic4.jpeg');"></li>
+        </ul>
+    </div>
+    <hr>
+
+    <!-- ********************************* -->
+    <div id="getting-around">
+        <h3 class="title">Ways to Traveling</h3>
+        <p>
+            With that out of the way, we'll now focus on our "about" section. Our first step is to style the copy. We’ll begin by adding some base styling for the section as a whole as well as our flexbox logic. This time we are having the items appear in a row center aligned using our two-cols class.
+        </p>
+        <ul class="grid">
+            <li><i class="fas fa-plane ico"></i>
+                <h4>Airplane</h4>
+                <p>A powered flying vehicle with fixed wings and a weight greater than that of the air it displaces.</p>
+            </li>
+            <li><i class="fas fa-ship ico"></i>
+                <h4>Cruise Ships</h4>
+                <p>Cruise Ships A passenger ship used for pleasure voyages, where the voyage itself and the ship's amenities are a part of the experience.</p>
+            </li>
+            <li><i class="fas fa-taxi ico"></i>
+                <h4>Taxis</h4>
+                <p>A motor vehicle licensed to transport passengers in return for payment of a fare.</p>
+            </li>
+        </ul>
+    </div>
+    <!-- ********************************* -->
+    <div id="famous-qoutes">
+        <hr>
+        <h3 class="title">What Others Our Saying</h3>
+        <p class="portrait"><img src="img/persona1.svg" alt="Avatar 1" class="portrait-photos"></p>
+        <p class="quote">&ldquo;An investment in knowledge pays the best interest.&rdquo;</p>
+        <p class="author">&mdash; Persona 1</p>
+        <p class="portrait"><img src="img/persona2.svg" alt="Avatar 2" class="portrait-photos"></p>
+        <p class="quote">&ldquo;An investment in knowledge pays the best interest.&rdquo;</p>
+        <p class="author">&mdash; Persona 2</p>
+        <p class="portrait"><img src="img/persona3.svg" alt="Avatar 3" class="portrait-photos"></p>
+        <p class="quote">&ldquo;An investment in knowledge pays the best interest.&rdquo;</p>
+        <p class="author">&mdash; Persona 3</p>
+        <hr>
+    </div>
+
+    <!-- ********************************* -->
+    <div id="contact">
+        <h3 class="title">Contact</h3>
+        <section class="flexbox-section">
+            <p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2429.570106760504!2d13.433594315806221!3d52.48691897980797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84fb0247384bb%3A0xfab155deb1c02d59!2sWeichselstra%C3%9Fe+50%2C+12045+Berlin!5e0!3m2!1sde!2sde!4v1551620179417" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </p>
+            <p>
+                Weichselstraße 50<br>
+                12045 Berlin<br>
+                Deutschland
+            </p>
+        </section>
+    </div>
+
+    <!-- ********************************* -->
+    <div id="contact-form">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScg9KvPAbOhFD2D2gPCQtHop8FCE-hNKgMYT4kFIxhMOpnnOQ/viewform?embedded=true" width="100%" height="1250" frameborder="0" marginheight="0" marginwidth="0">Wird geladen...</iframe>
+    </div>
+
+    <!-- ********************************* -->
+
+    <footer id="social-media">
+        <ul>
+            <li><a href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://github.com/svnbhsn" target="_blank"><i class="fab fa-github"></i></a></li>
+
+        </ul>
+
+        <p>&copy; 2017<script>
+                new Date().getFullYear() > 2010 && document.write("-" + new Date().getFullYear());
+
+            </script> It sure is fun create websites.</p>
+
+        <p>&ldquo;Tell me and I forget, teach me and I may remember, involve me and I learn.&rdquo; &mdash; Benjamin Franklin</p>
+    </footer>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('a[href^="#"]').on('click', function(e) {
+                e.preventDefault();
+
+                var target = this.hash;
+                var $target = $(target);
+
+                $('html, body').stop().animate({
+                    'scrollTop': $target.offset().top - 100
+                }, 900, 'swing', function() {
+                    window.location.hash = target - 100;
+                });
+            });
+        });
+
+    </script>
+</body>
+
+</html>
